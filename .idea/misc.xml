@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/account_edit.xml" value="0.1125" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/account_off.xml" value="0.104" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/account_user.xml" value="0.1125" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/chart_timeline.xml" value="0.1125" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/close_circle.xml" value="0.1" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/history_multiple.xml" value="0.1125" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/medal.xml" value="0.1" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/preferences.xml" value="0.104" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/premium.xml" value="0.1" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/settings.xml" value="0.104" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/trainer.xml" value="0.1125" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable-v24/web_plus.xml" value="0.1" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_bottom.xml" value="0.212" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_circle.xml" value="0.1" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_style.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_style2.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_style3.xml" value="0.212" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_style4.xml" value="0.1885" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/bg_top.xml" value="0.212" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/button_style.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/eye_off.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/eye_off_outline.xml" value="0.109" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/eye_outline.xml" value="0.109" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/fill_background.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/home_circle.xml" value="0.117" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/kali_background.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/shield_home.xml" value="0.117" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/drawable/style_edbackg.xml" value="0.2845" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_amateur_exercices.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_back.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_bar_main.xml" value="0.24494949494949494" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_cardio.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_exercices.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_exercices_advanced.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_exercices_medium.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_exercices_stretches_medium.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_history_user.xml" value="0.25" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_legs.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_level_trainments.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_misions.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_my_profile.xml" value="0.25" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_new_password.xml" value="0.15" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_next_nutrition.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_nutrition.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_recover_pass.xml" value="0.2" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_road_to_muscle.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_routines.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_routines_amateur.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_routines_random.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_run_exercice.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_stretches.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_stretches_advanced.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_stretches_amateur.xml" value="0.25" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_stretches_medium.xml" value="0.15715579710144928" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/activity_terms.xml" value="0.22" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/app_bar_levels_exercices.xml" value="0.365625" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/app_bar_main.xml" value="0.234375" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/app_bar_nutrition.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/app_bar_routines.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/app_bar_routines_amateur.xml" value="0.365625" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/app_bar_routines_random.xml" value="0.27824019024970276" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/layout/nav_header_main.xml" value="0.2" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/menu/activity_levels_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/menu/activity_main_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/HEON_100001/AndroidStudioProjects/AppSonsOfCalisthenicsBETA/app/src/main/res/menu/order_records_by.xml" value="0.234375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

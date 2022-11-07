@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lynav_header"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dd"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:id="@+id/lyNav_Levels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lyNavLevelTrainment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/lyHeaderLevelTrainment"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:gravity="top">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvBackgroundUser"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/gray_dark"
+                    app:cardCornerRadius="50dp">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/userexample" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tvNumberLevelTrainment"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cvBackgroundUser"
+                    android:layout_marginRight="-10dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/pp"
+                    android:padding="2dp"
+                    android:text="@string/level"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:translationX="-10dp"
+                    android:translationY="-10dp"
+                    android:translationZ="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlDataLevelUser"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="top|center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cvLevelUser"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:cardCornerRadius="55dp" >
+                    <me.tankery.lib.circularseekbar.CircularSeekBar
+                        android:id="@+id/cdUpLevel"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_horizontal"
+                        android:translationZ="5dp"
+                        app:cs_circle_color="@color/gray"
+                        app:cs_circle_progress_color="@color/bb"
+                        app:cs_circle_stroke_width="8dp"
+                        app:cs_circle_style="butt"
+                        app:cs_disable_pointer="true"
+                        app:cs_end_angle="0"
+                        app:cs_max="100"
+                        app:cs_negative_enabled="true"
+                        app:cs_pointer_angle="0"
+                        app:cs_pointer_stroke_width="8dp"
+                        app:cs_progress="30"
+                        app:cs_start_angle="180" />
+
+                    <me.tankery.lib.circularseekbar.CircularSeekBar
+                        android:id="@+id/cdObjectives"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
+                        android:layout_gravity="center_horizontal"
+                        android:translationZ="0dp"
+                        app:cs_circle_color="@color/gray"
+                        app:cs_circle_progress_color="@color/red"
+                        app:cs_circle_stroke_width="8dp"
+                        app:cs_circle_style="butt"
+                        app:cs_disable_pointer="true"
+                        app:cs_end_angle="180"
+                        app:cs_max="100"
+                        app:cs_negative_enabled="true"
+                        app:cs_pointer_angle="0"
+                        app:cs_pointer_stroke_width="8dp"
+                        app:cs_progress="30"
+                        app:cs_start_angle="0" />
+                    
+                    <TextView
+                        android:id="@+id/tvUpLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/levels"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="10sp"
+                        android:layout_marginTop="15dp" />
+                    <TextView
+                        android:id="@+id/tvTotalUpLevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_levels"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:layout_marginTop="23dp" />
+                    <TextView
+                        android:id="@+id/tvTotalObjectives"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/total_objectives"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:layout_marginTop="55dp" />
+
+                    <TextView
+                        android:id="@+id/tvTotalObjetivesLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/total_objeticves_label"
+                        android:textAlignment="center"
+                        android:textColor="@color/gray_dark"
+                        android:textSize="10sp"
+                        android:layout_marginTop="80dp" />
+
+
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvHi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="@string/nav_hi"
+        android:textColor="@color/gray_dark"  />
+</LinearLayout>

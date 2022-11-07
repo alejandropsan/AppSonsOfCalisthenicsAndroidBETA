@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appsonsofcalisthenicsbeta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppSonsOfCalisthenicsBETA"
+        tools:targetApi="31">
+        <activity
+            android:name=".StretchesAdvancedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".exercices_stretches_medium"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutinesRandomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutinesAdvancedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutinesMediumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutinesAmateurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicesAdvancedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicesMediumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShouldersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TricepsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BicepsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AbsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LegsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CardioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TensionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoadToMuscleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StretchesAmateurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LevelTrainmentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RunExerciceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NextNutrition"
+            android:exported="false" />
+        <activity
+            android:name=".NutritionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RoutinesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExercicesAmateurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MisionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecoverPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

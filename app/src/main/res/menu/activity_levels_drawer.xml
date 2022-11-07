@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_main"
+            android:icon="@drawable/trainer"
+            android:title="@string/training_now" />
+
+        <item android:id="@+id/tracing"
+            android:icon="@drawable/chart_timeline"
+            android:title="@string/tracing" />
+
+        <item android:id="@+id/history"
+            android:icon="@drawable/history_multiple"
+            android:title="@string/history" />
+    </group>
+
+    <item android:title="@string/account">
+        <menu>
+            <item android:id="@+id/item_profile"
+                android:icon="@drawable/account_edit"
+                android:title="@string/profile" />
+            <item android:id="@+id/settings"
+                android:icon="@drawable/settings"
+                android:title="@string/settings" />
+            <item android:id="@+id/signOut"
+                android:icon="@drawable/account_off"
+                android:title="@string/signOut" />
+        </menu>
+    </item>
+
+    <item android:title="@string/advantages">
+        <menu>
+            <item android:id="@+id/premium"
+                android:icon="@drawable/premium"
+                android:title="@string/premium" />
+            <item android:id="@+id/pageweb"
+                android:icon="@drawable/web_plus"
+                android:title="@string/trainment_sons" />
+        </menu>
+    </item>
+</menu>

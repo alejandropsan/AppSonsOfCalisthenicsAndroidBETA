@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/orderby_date"
+        android:title="@string/orderby_dateZA" />
+    <item android:id="@+id/orderby_amateur"
+        android:title="@string/orderby_amateurZA" />
+    <item android:id="@+id/orderby_medium"
+        android:title="@string/orderby_mediumZA" />
+    <item android:id="@+id/orderby_advanced"
+        android:title="@string/orderby_advancedZA" />
+    <item android:id="@+id/orderby_favorites"
+        android:title="@string/orderby_favoritesZA" />
+    <item android:id="@+id/orderby_min_activity"
+        android:title="@string/orderby_min_activityZA" />
+
+
+    <!--  si quieres que una opción aparezca SIEMPRE hay que poner esto
+    en la cabecera del menú
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    en la etiqueta del item, la siguiente propiedad
+    app:showAsAction="always"
+    también de paso se le podría poner un icono
+    android:icon="@drawable/ic_action_name"  -->
+
+
+</menu>

@@ -1,0 +1,264 @@
+<resources>
+
+    <!-- INICIO -->
+    <string name="app_name">AppSonsOfCalisthenics(BETA)</string>
+    <string name="email">Email</string>
+    <string name="send">Enviar</string>
+    <string name="password">Contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="update_password">Actualiza tu contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="login">Iniciar sesión</string>
+
+    <string name="register">Regístrate</string>
+    <string name="new_register">Nuevo registro</string>
+
+    <string name="forgot_password">¿Has olvidado tu contraseña?</string>
+
+    <string name="alias">Nombre de usuario</string>
+    <string name="recover_pass">Te enviaremos un correo de confirmación para la generación de una nueva contraseña</string>
+    <string name="recoverText_pass">Recuperación de contraseña</string>
+
+    <string name="google">GOOGLE</string>
+    <string name="facebook">FACEBOOK</string>
+
+    <string name="terms">He leído y acepto los</string>
+    <string name="conditions">términos y condiciones de uso.</string>
+
+    <string name="bar_title_terms">Términos y Condiciones de uso</string>
+    <string name="terms1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</string>
+    <string name="terms2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</string>
+    <string name="terms3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</string>
+
+
+    <!-- SECCIÓN PRINCIPAL -->
+
+    <!-- BAR HEADER -->
+    <string name="user">Alejandropsan</string>
+    <string name="nav_hi">Cuanto más sudor en tiempo de paz, menos sangre en tiempo de guerra</string>
+    <string name="level">Nivel 2</string>
+
+    <!-- CARD VIEW -->
+    <string name="levels">NIVEL 2</string>
+    <string name="objectives">OBJETIVOS</string>
+    <string name="total_levels">30%</string>
+    <string name="total_objectives">5/10</string>
+    <string name="total_objeticves_label">OBJETIVOS</string>
+
+    <!-- BAR MAIN -->
+    <string name="bar_title_menu">Menú</string>
+    <string name="bar_title_closeMenu">Cerrar menú</string>
+    <string name="bar_title_main">CALISTENIA AL LÍMITE</string>
+    <string name="training_now">Comenzar a entrenar</string>
+    <string name="tracing">Seguimiento</string>
+    <string name="history">Historial</string>
+
+    <string name="account">Cuenta</string>
+    <string name="profile">Mi Perfil</string>
+    <string name="settings">Ajustes</string>
+    <string name="signOut">Cerrar sesión</string>
+
+    <string name="advantages">Ventajas y promociones</string>
+    <string name="premium">Hazte premium</string>
+    <string name="trainment_sons">Conócenos en https://sonsofcalisthenics.com</string>
+
+
+    <!-- MAIN ACTIVITY -->
+    <string name="exercices">Ejercicios</string>
+    <string name="routines">Rutinas</string>
+    <string name="nutrition">Nutrición</string>
+
+    <!-- MI PERFIL -->
+    <string name="edit_alias">Elige un alias</string>
+    <string name="edit_password">Nueva contraseña</string>
+    <string name="edit_confirm_password">Confirma tu nueva contraseña</string>
+    <string name="edit_email">Introduce tu email</string>
+    <string name="edit_phone">Introduce tu nº de teléfono</string>
+    <string name="text_sex">Sexo:</string>
+    <string name="edit_sex_mascle">Hombre</string>
+    <string name="edit_sex_female">Mujer</string>
+    <string name="edit_image">Sube tu imagen</string>
+    <string name="button_edit_profile">Actualizar</string>
+
+
+    <!-- historial -->
+    <string name="bar_title_record">Todos los registros</string>
+    <!-- general -->
+    <string name="orderby_dateZA">Por Fecha (Más Recientes primero)</string>
+    <string name="orderby_amateurZA">Amateur (Recientes primero)</string>
+    <string name="orderby_mediumZA">Intermedios (Recientes primero)</string>
+    <string name="orderby_advancedZA">Avanzados (Recientes primero)</string>
+    <string name="orderby_favoritesZA">Favoritos (Recientes primero)</string>
+    <string name="orderby_min_activityZA">Menor actividad (Recientes primero)</string>
+
+    <string name="orderby_dateAZ">Por Fecha (Menos Recientes primero)</string>
+    <string name="orderby_amateurAZ">Amateur (Menos Recientes primero)</string>
+    <string name="orderby_mediumAZ">Intermedios (Menos Recientes primero)</string>
+    <string name="orderby_advancedAZ">Avanzados (Menos Recientes primero)</string>
+    <string name="orderby_favoritesAZ">Favoritos (Menos Recientes primero)</string>
+    <string name="orderby_min_activityAZ">Menor actividad (Menos Recientes primero)</string>
+
+    <!-- ejercicios -->
+    <string name="orderby_date_exercicesZA">Por Fecha (Más Recientes primero)</string>
+    <string name="orderby_exercices_amateurZA">Ejercicios amateur (Recientes primero)</string>
+    <string name="orderby_exercices_mediumZA">Ejercicios intermedios (Recientes primero)</string>
+    <string name="orderby_exercices_advancedZA">Ejercicios avanzados (Recientes primero)</string>
+    <string name="orderby_exercices_favoritesZA">Ejercicios favoritos (Recientes primero)</string>
+    <string name="orderby_exercices_min_activityZA">Ejercicios de menor actividad  (Recientes primero)</string>
+
+    <string name="orderby_date_exercicesAZ">Por Fecha (Menos Recientes primero)</string>
+    <string name="orderby_exercices_amateurAZ">Ejercicios amateur (Menos Recientes primero)</string>
+    <string name="orderby_exercices_mediumAZ">Ejercicios intermedios (Menos Recientes primero)</string>
+    <string name="orderby_exercices_advancedAZ">Ejercicios avanzados (Menos Recientes primero)</string>
+    <string name="orderby_exercices_favoritesAZ">Ejercicios favoritos (Menos Recientes primero)</string>
+    <string name="orderby_exercices_min_activityAZ">Ejercicios de menor actividad (Menos Recientes primero)</string>
+
+    <!-- rutinas -->
+    <string name="orderby_date_routinesZA">Por Fecha (Más Recientes primero)</string>
+    <string name="orderby_routines_randomZA">Rutinas favoritos (Recientes primero)</string>
+    <string name="orderby_routines_amateurZA">Rutinas amateur (Recientes primero)</string>
+    <string name="orderby_routines_mediumZA">Rutinas intermedios (Recientes primero)</string>
+    <string name="orderby_routines_advancedZA">Rutinas avanzados (Recientes primero)</string>
+    <string name="orderby_routines_favoritesZA">Rutinas favoritos (Recientes primero)</string>
+    <string name="orderby_routines_min_activityZA">Rutinas de menor actividad  (Recientes primero)</string>
+
+    <string name="orderby_date_routinesAZ">Por Fecha (Menos Recientes primero)</string>
+    <string name="orderby_routines_randomAZ">Rutinas favoritos (Menos Recientes primero)</string>
+    <string name="orderby_routines_amateurAZ">Rutinas amateur (Menos Recientes primero)</string>
+    <string name="orderby_routines_mediumAZ">Rutinas intermedios (Menos Recientes primero)</string>
+    <string name="orderby_routines_advancedAZ">Rutinas avanzados (Menos Recientes primero)</string>
+    <string name="orderby_routines_favoritesAZ">Rutinas favoritos (Menos Recientes primero)</string>
+    <string name="orderby_routines_min_activityAZ">Rutinas de menor actividad (Menos Recientes primero)</string>
+
+    <!-- nutrición -->
+    <string name="orderby_date_nutritionZA">Por Fecha (Más Recientes primero)</string>
+    <string name="orderby_favorites_foodZA">Alimentos favoritos (Recientes primero)</string>
+    <string name="orderby_min_ingestedZA">Alimentos menos ingeridos (Recientes primero)</string>
+
+    <string name="orderby_date_nutritionAZ">Por Fecha (Menos Recientes primero)</string>
+    <string name="orderby_favorites_foodAZ">Alimentos favoritos (Menos Recientes primero)</string>
+    <string name="orderby_min_ingestedAZ">Alimentos menos ingeridos (Menos Recientes primero)</string>
+
+
+    <!-- SECCIÓN EJERCICIOS -->
+    <string name="bar_title_amateur">NIVEL PRINCIPIANTE</string>
+    <string name="bar_title_medium">NIVEL INTERMEDIO</string>
+    <string name="bar_title_advanced">NIVEL AVANZADO</string>
+
+    <!-- NIVELES DE ENTRENAMIENTO -->
+    <string name="bar_title_levels_exercices">ELIGE TU NIVEL DE ENTRENAMIENTO</string>
+    <string name="amateur">PRINCIPIANTE</string>
+    <string name="medium">INTERMEDIO</string>
+    <string name="advanced">AVANZADO</string>
+
+    <!-- CLASES DE ENTRENAMIENTO -->
+    <!-- PRINCIPIANTE -->
+    <!-- CALENTAMIENTOS -->
+    <string name="bar_title_stretches">CALENTAMIENTOS</string>
+    <string name="trainment_stretches">CALENTAMIENTOS</string>
+    <!-- ROAD TO MUSCLE UP -->
+    <string name="bar_title_road">EJERCICIOS ROAD TO MUSCLE</string>
+    <string name="trainment_road">ROAD TO MUSCLE UP</string>
+    <string name="tecnich_one">Muscle up 1</string>
+    <string name="tecnich_two">Muscle up 2</string>
+    <string name="tecnich_three">Muscle up 3</string>
+    <string name="tecnich_four">Muscle up 4</string>
+    <string name="tecnich_five">Muscle up 5</string>
+    <string name="muscle_one">Hiperextensión</string>
+    <string name="muscle_two">Kipping</string>
+    <string name="muscle_three">Entrada</string>
+    <string name="muscle_four">Combo 3 pasos</string>
+    <string name="muscle_five">Práctica en barra baja</string>
+    <!-- CARDIO -->
+    <string name="bar_title_cardio">EJERCICIOS DE CARDIO</string>
+    <string name="cardio_burpees">Burpees</string>
+    <string name="cardio_navySeals">Navy Seals Burpees</string>
+    <string name="cardio_jump_Burpees">Jump Burpees</string>
+    <string name="cardio_half_burpees">Half Burpees</string>
+    <string name="cardio_jumping_jacks">Jumping Jacks</string>
+    <string name="cardio_skips">Skips</string>
+    <string name="cardio_mountain">Mountain Climbers</string>
+    <string name="cardio_side_mountain">Side Mountain Climbers</string>
+    <string name="cardio_comba">Comba</string>
+    <!-- LEGS -->
+    <string name="bar_title_legs">EJERCICIOS DE PIERNAS</string>
+    <string name="legs_squats">Squats</string>
+    <string name="legs_jump_squats">Jump Squats</string>
+    <string name="legs_box_jump">Box Jump</string>
+    <string name="legs_box_jumps_oneLeg">Box Jump One Leg</string>
+    <string name="legs_step_up">Step up</string>
+    <string name="legs_lunges">Lunges</string>
+    <string name="legs_jump_lunges">Jump Lunges</string>
+    <string name="legs_bulgarian_squats">Bulgarian Squats</string>
+    <string name="legs_back_step_squats">Back Step Squats</string>
+    <string name="legs_side_squats">Side Squats</string>
+    <string name="legs_sumo_squats">Sumo Squats</string>
+    <string name="legs_squats_hold_90">Squats Hold 90º</string>
+    <!-- AMATEUR -->
+    <string name="trainment_tension">TENSIÓN</string>
+    <string name="trainment_cardio">CARDIO</string>
+    <string name="trainment_legs">PIERNAS</string>
+    <string name="trainment_abs">ABS</string>
+    <string name="trainment_biceps">BICEPS</string>
+    <string name="trainment_chest">PECTORAL</string>
+    <string name="trainment_triceps">TRICEPS</string>
+    <string name="trainment_shoulders">HOMBROS</string>
+    <string name="trainment_back">ESPALDA</string>
+    <string name="numbers_trainment">1</string>
+    <string name="trainment_name">Pecho / Bíceps</string>
+    <!-- INTERMEDIO -->
+    <string name="trainment_level">INTERMEDIO</string>
+    <!-- AVANZADO -->
+    <string name="start_trainment">Iniciar</string>
+    <string name="random_trainment">Aleatorio</string>
+
+    <string name="bar_title_runExercice">COMIENZO DE ENTRENAMIENTO</string>
+    <string name="chronometer">00:00</string>
+
+    <!-- POP UP -->
+    <string name="medalDistanceDescription">Distancia [Record Personal]</string>
+    <string name="medalAvgSpeedDescription">Vel. Máx. [Record Personal]</string>
+    <string name="textNull"></string>
+    <string name="PopUpDurationTitle">DURACION</string>
+    <string name="PopUpChallengeTitle">OBJETIVO</string>
+    <string name="PopUpIntervalTitle">INTERVALOS</string>
+    <string name="PopUpDistanceTitle">DISTANCIA</string>
+    <string name="PopUpAvgSpeedTitle">VELOCIDAD PROMEDIO</string>
+    <string name="PopUpMaxSpeedTitle">VELOCIDAD MÁXIMA</string>
+    <string name="PopUpUnevennessTitle">DESNIVEL</string>
+    <!-- RUTINAS -->
+    <string name="bar_title_routines">ELIGE TU MEJOR RUTINA</string>
+    <string name="bar_title_routines_amateur">RUTINAS NIVEL PRINCIPIANTE</string>
+    <string name="bar_title_routines_medium">RUTINAS NIVEL INTERMEDIO</string>
+    <string name="bar_title_routines_advanced">RUTINAS NIVEL AVANZADO</string>
+    <string name="bar_title_routines_random">RUTINAS ALEATORIAS</string>
+
+    <string name="random_routine">RUTINAS ALEATORIAS</string>
+    <string name="routines_random">ELIGE UNA RUTINA ALEATORIA</string>
+    <string name="select_routine">EJEMPLO</string>
+    <string name="button_routine">CAMBIAR</string>
+    <string name="random_shoulders">HOMBROS</string>
+    <string name="random_explosivity">EXPLOSIVIDAD</string>
+    <string name="random_front_level">PROGRESIONES FRONT LEVEL</string>
+    <string name="random_legs">PIERNAS</string>
+
+
+    <!-- SECCIÓN NUTRICIÓN -->
+    <string name="bar_nutrition_title">ESTUDIO DIÉTETICO Y NUTRICIONAL</string>
+    <string name="presentation_nutrition">Controla tu dieta con estadísticas y objetivos</string>
+    <string name="imc">Cálculo de tu I.M.C.</string>
+    <string name="weight">Peso / Kg:</string>
+    <string name="height">Altura / m:</string>
+    <string name="calculate_imc">Calcular</string>
+    <string name="result_imc">Este es tu I.M.C. (Índice de Masa Corporal)</string>
+    <string name="next_nutrition">Siguiente</string>
+
+    <string name="tmb">Cálculo de tu T.M.B.</string>
+    <string name="result_tmb">Este es tu T.M.B. (Tasa metabólica basal)</string>
+
+    <!-- MISIONES -->
+    <string name="bar_misions_title">Conviértete en nuestro mejor aliado</string>
+    <string name="misions1">RECLUTA</string>
+    <string name="misions2">PROFESIONAL</string>
+    <string name="misions3">VETERANO</string>
+</resources>

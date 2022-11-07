@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983767832366",
+    "project_id": "sonsofcalisthenics-bb7cf",
+    "storage_bucket": "sonsofcalisthenics-bb7cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983767832366:android:e0b7c9a57cb600011c0cbf",
+        "android_client_info": {
+          "package_name": "com.example.appsonsofcalisthenicsbeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983767832366-dn64k3vp72107943oavbccijo93jgmaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtSecH_q8rJ1hdIcwVmgLKr_P1sJXhnTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983767832366-dn64k3vp72107943oavbccijo93jgmaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
