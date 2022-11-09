@@ -220,8 +220,8 @@
     <string name="medalAvgSpeedDescription">Vel. Máx. [Record Personal]</string>
     <string name="textNull"></string>
     <string name="PopUpDurationTitle">DURACION</string>
-    <string name="PopUpChallengeTitle">OBJETIVO</string>
-    <string name="PopUpIntervalTitle">INTERVALOS</string>
+    <string name="PopUpRepetitionsTitle">REPETICIONES</string>
+    <string name="PopUpRecordsTimeTitle">RÉCORD</string>
     <string name="PopUpDistanceTitle">DISTANCIA</string>
     <string name="PopUpAvgSpeedTitle">VELOCIDAD PROMEDIO</string>
     <string name="PopUpMaxSpeedTitle">VELOCIDAD MÁXIMA</string>

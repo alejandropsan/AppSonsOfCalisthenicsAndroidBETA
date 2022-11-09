@@ -16,48 +16,54 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar_stretches"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:title="@string/bar_title_stretches"
-        app:titleTextColor="@color/white" />
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_stretches"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:title="@string/bar_title_stretches"
+                app:titleTextColor="@color/white" />
 
 
-    <ImageView
-        android:id="@+id/ivLogoMain4"
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:src="@mipmap/logo7" />
+            <ImageView
+                android:id="@+id/ivLogoMain4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/logo7" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/buttonStartStretch"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:text="@string/start_trainment"
-            android:background="@drawable/bg_style2" />
+            <VideoView
+                android:id="@+id/vvStretches"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="30dp" />
 
-    <TextView
-        android:id="@+id/tvChronometerStretch"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="@string/chronometer"
-        android:textColor="@color/white"
-        android:textSize="52sp" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonStartStretch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="300dp"
+                android:background="@drawable/bg_style2"
+                android:text="@string/start_trainment" />
+
+            <TextView
+                android:id="@+id/tvChronometerStretch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/chronometer"
+                android:textColor="@color/white"
+                android:textSize="52sp" />
 
         </LinearLayout>
-
+  <!--
         <LinearLayout
             android:id="@+id/lyPopUpRun"
             android:layout_width="match_parent"
@@ -99,7 +105,6 @@
                                 android:id="@+id/ivClosePopUp"
                                 android:layout_width="45dp"
                                 android:layout_height="45dp"
-                                android:layout_margin="10dp"
                                 android:onClick="closePopUp"
                                 android:padding="10dp"
                                 android:src="@drawable/close_circle" />
@@ -152,7 +157,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="200dp"
-                        android:background="@color/gray_dark"
+                        android:background="@color/gray_strong"
                         android:gravity="center"
                         android:orientation="horizontal"
                         android:padding="0dp"
@@ -164,9 +169,9 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center|center"
                             android:layout_marginLeft="5dp"
-                            android:background="@color/gray_dark"
+                            android:background="@color/gray_strong"
                             android:orientation="vertical"
-                            android:paddingBottom="0dp">
+                            android:padding="10dp">
 
                             <LinearLayout
                                 android:id="@+id/lyMedalRun"
@@ -180,7 +185,7 @@
 
                                 <LinearLayout
                                     android:id="@+id/lyMedalDistance"
-                                    android:layout_width="56dp"
+                                    android:layout_width="110dp"
                                     android:layout_height="wrap_content"
                                     android:gravity="center|center"
                                     android:orientation="vertical"
@@ -188,27 +193,27 @@
 
                                     <ImageView
                                         android:id="@+id/ivMedalDistance"
-                                        android:layout_width="56dp"
-                                        android:layout_height="wrap_content"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
                                         android:layout_marginTop="0dp"
-                                        android:src="@drawable/medal" />
+                                        android:src="@mipmap/logros_icon" />
 
                                     <TextView
                                         android:id="@+id/tvMedalDistanceTitle"
-                                        android:layout_width="50dp"
+                                        android:layout_width="150dp"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="2dp"
                                         android:fontFamily="@font/nunitosans_black"
                                         android:text="@string/medalDistanceDescription"
                                         android:textAlignment="center"
                                         android:textColor="@color/gray"
-                                        android:textSize="10sp"
+                                        android:textSize="12sp"
                                         android:textStyle="italic" />
                                 </LinearLayout>
 
                                 <LinearLayout
                                     android:id="@+id/lyMedalAvgSpeed"
-                                    android:layout_width="56dp"
+                                    android:layout_width="130dp"
                                     android:layout_height="wrap_content"
                                     android:gravity="bottom|center"
                                     android:orientation="vertical"
@@ -216,27 +221,24 @@
 
                                     <ImageView
                                         android:id="@+id/ivMedalAvgSpeed"
-                                        android:layout_width="56dp"
-                                        android:layout_height="wrap_content"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
                                         android:layout_marginTop="0dp"
-                                        android:src="@drawable/medal" />
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@mipmap/insignia_icon" />
 
-                                    <RelativeLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="match_parent">
-
-                                    </RelativeLayout>
 
                                     <TextView
                                         android:id="@+id/tvMedalAvgSpeedTitle"
-                                        android:layout_width="50dp"
+                                        android:layout_width="110dp"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="2dp"
-                                        android:fontFamily="sans-serif-light"
+                                        android:layout_marginLeft="10dp"
+                                        android:fontFamily="@font/nunitosans_black"
                                         android:text="@string/medalAvgSpeedDescription"
                                         android:textAlignment="center"
                                         android:textColor="@color/gray"
-                                        android:textSize="10sp"
+                                        android:textSize="12sp"
                                         android:textStyle="italic" />
                                 </LinearLayout>
 
@@ -271,7 +273,7 @@
 
                             <LinearLayout
                                 android:id="@+id/lyCurrentDuration"
-                                android:layout_width="match_parent"
+                                android:layout_width="300dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginBottom="5dp"
@@ -290,7 +292,7 @@
                                     android:text="@string/PopUpDurationTitle"
                                     android:textAlignment="textEnd"
                                     android:textColor="@color/gray"
-                                    android:textSize="14sp" />
+                                    android:textSize="32sp" />
 
                                 <TextView
                                     android:id="@+id/tvDurationRun"
@@ -305,7 +307,7 @@
                                     android:textSize="35sp" />
 
                                 <LinearLayout
-                                    android:id="@+id/lyChallengeDurationRun"
+                                    android:id="@+id/lyRepetitionsDurationRun"
                                     android:layout_width="170dp"
                                     android:layout_height="wrap_content"
                                     android:background="@color/gray_strong"
@@ -313,16 +315,16 @@
                                     android:orientation="vertical">
 
                                     <TextView
-                                        android:id="@+id/tvChallengeTitle"
+                                        android:id="@+id/tvRepetitionsTitle"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="4dp"
                                         android:layout_marginRight="10dp"
                                         android:fontFamily="sans-serif-light"
-                                        android:text="@string/PopUpChallengeTitle"
+                                        android:text="@string/PopUpRepetitionsTitle"
                                         android:textAlignment="center"
                                         android:textColor="@color/gray"
-                                        android:textSize="14sp" />
+                                        android:textSize="22sp" />
 
                                     <TextView
                                         android:id="@+id/tvChallengeDurationRun"
@@ -331,10 +333,10 @@
                                         android:layout_marginTop="0dp"
                                         android:layout_marginRight="10dp"
                                         android:fontFamily="sans-serif-light"
-                                        android:text="01:00"
+                                        android:text="10 / 12"
                                         android:textAlignment="center"
                                         android:textColor="@color/gray"
-                                        android:textSize="14sp" />
+                                        android:textSize="20sp" />
                                 </LinearLayout>
 
                                 <LinearLayout
@@ -346,21 +348,28 @@
                                     android:orientation="vertical">
 
                                     <TextView
-                                        android:id="@+id/tvIntervalTitle"
+                                        android:id="@+id/tvRecordTimeTitle"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="4dp"
                                         android:layout_marginRight="10dp"
                                         android:fontFamily="sans-serif-light"
-                                        android:text="@string/PopUpIntervalTitle"
+                                        android:text="@string/PopUpRecordsTimeTitle"
                                         android:textAlignment="center"
                                         android:textColor="@color/gray"
-                                        android:textSize="14sp" />
+                                        android:textSize="20sp" />
 
                                     <TextView
-                                        android:id="@+id/tvIntervalRun"
+                                        android:id="@+id/tvRecordRun"
                                         android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content" />
+                                        android:layout_height="wrap_content"
+                                        android:text="05:00"
+                                        android:textColor="@color/gray"
+                                        android:textSize="18sp"
+                                        android:fontFamily="sans-serif-light"
+                                        android:layout_marginTop="4dp"
+                                        android:layout_marginRight="10dp"
+                                        />
 
 
                                 </LinearLayout>
@@ -378,6 +387,6 @@
 
 
     </LinearLayout>
-
+-->
     </RelativeLayout>
 </androidx.drawerlayout.widget.DrawerLayout>
